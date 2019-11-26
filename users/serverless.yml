@@ -1,0 +1,15 @@
+service: users
+frameworkVersion: "^1.26.1"
+
+provider:
+  name: aws
+  runtime: python3.7
+  region: ap-northeast-1
+
+functions:
+  users-get:
+    name: ${self:service}-get
+    handler: get.handler
+  users-post:
+    name: ${self:service}-post
+    handler: post.handler
