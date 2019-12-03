@@ -10,6 +10,9 @@ functions:
   users-userid-get:
     name: ${self:service}-get
     handler: get.handler
+  users-userid-put:
+    name: ${self:service}-put
+    handler: put.handler
   users-userid-delete:
     name: ${self:service}-delete
     handler: delete.handler

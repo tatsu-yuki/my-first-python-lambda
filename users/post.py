@@ -3,7 +3,7 @@ import json
 
 def handler(event, context):
     body = {
-        "message": "Go Serverless v1.0! Your function executed successfully!",
+        "message": "Hello, this is a endpoint of POST /users.",
         "input": event
     }
 

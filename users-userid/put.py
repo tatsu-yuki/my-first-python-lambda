@@ -3,7 +3,7 @@ import json
 
 def handler(event, context):
     body = {
-        "message": "Hello, this is a endpoint of DELETE /users/{user_id}.",
+        "message": "Hello, this is a endpoint of PUT /users/{user_id}.",
         "input": event
     }
 
