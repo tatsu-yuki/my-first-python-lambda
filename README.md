@@ -1,4 +1,4 @@
-## Python-Lambdaで作るはじめてのREST API
+## [教育用] Python-Lambdaで作るはじめてのREST API
 
 ## ディレクトリ構成
 - `users`
